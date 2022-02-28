@@ -1,4 +1,4 @@
-#Stuff I learned about
+Stuff I learned about
 ---
 * FastAPI
 * OAuth2 and Authenication tokens
