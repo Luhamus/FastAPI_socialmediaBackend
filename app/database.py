@@ -7,7 +7,7 @@ import psycopg2 #Library to connect to postgres
 from .config import settings
 
 #SQLALCHEMY_DATABASE_URL = f'postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}:{settings.database_port}/{settings.database_name}'
-SQLALCHEMY_DATABASE_URL = "postgres://zgziodukncnnof:bb1176f2961766e2d5edf439b0889f1cbb52288983ea073e94ef387ddb3e5d59@ec2-18-215-8-186.compute-1.amazonaws.com:5432/dfhqvfedeess9u"
+SQLALCHEMY_DATABASE_URL = "postgresql://zgziodukncnnof:bb1176f2961766e2d5edf439b0889f1cbb52288983ea073e94ef387ddb3e5d59@ec2-18-215-8-186.compute-1.amazonaws.com:5432/dfhqvfedeess9u"
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
