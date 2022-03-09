@@ -25,4 +25,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 async def root():
-    return {"message" : "Hellow piipl"}
+    return {"message" : "What is good!! add /docs to url"}
