@@ -17,8 +17,6 @@ config = context.config
 #                    {settings.database_password}@{settings.database_hostname}:{settings.database_port}\
 #                        /{settings.database_name}')
 
-config.set_main_option("sqlalchemy.url", 'postgresql+psycopg2://zgziodukncnnof:bb1176f2961766e2d5edf439b0889f1cbb52288983ea073e94ef387ddb3e5d59@ec2-18-215-8-186.compute-1.amazonaws.com:5432/dfhqvfedeess9u')
-                       #ec2-18-215-8-186.compute-1.amazonaws.com
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
